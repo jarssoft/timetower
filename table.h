@@ -26,14 +26,14 @@ public:
 
     //add program to table
     void addProgram(const tm start, const tm end, std::string name, std::string categories,
-                    std::string director, int year, int season, int episode, int episodetotal, std::string subtitle, std::string url);
+                    std::string director, int year, int season, int episode, int episodetotal, std::string subtitle, std::string desc, std::string url);
 
     //generate table to HTML
     void getHTML(std::ostream& out);
 
     void getSVG(std::ostream& out);
 
-    void getHTMLTable(Table_writer &writer);
+    void getTable(Table_writer &writer);
 
 private:
 

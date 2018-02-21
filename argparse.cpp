@@ -23,9 +23,10 @@ static char args_doc[] = "[tvxml-file1 tvxml-file2...]";
 static struct argp_option options[] = {
   {"output",   'o', "FILE",     0, "Output to FILE instead of standard output" },
   {"stdin",    '@', 0,          0, "Read XML filenames from standard input" },
-  {"channel",  'c', "CHANNEL" , 0, "Select channel. Use if several" },
+  {"channel",  'c', "CHANNEL" , 0, "Select channel. Use if several feeded" },
   {"timezone", 'z', "TIMEZONE", 0, "Timezone correction in hours" },
-  {"week",     'w', "WEEK",     0, "Number of week" },
+  {"week",     'w', "WEEK",     0, "Table of one week. Pass number of week." },
+//{"weekday",  'd', "WEEKDAY",  0, "Table of one weekday. Pass weekday name." },
   {"svg",      's', 0,          0, "Output in svg-format instead of html." },
   { 0 }
 };

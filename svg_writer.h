@@ -21,6 +21,7 @@ public:
 
 private:
     Writer &writer;
+    void drawRect(int x, int y, int width, int height, std::string css_class);
 };
 
 #endif // SVG_WRITER_H

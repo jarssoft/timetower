@@ -1,4 +1,8 @@
 #include "stringrutins.h"
+#include <ctype.h>
+#include <iostream>
+#include <stdio.h>
+#include <cstring>
 
 void split(const std::string& s, char c, std::vector<std::string>& v) {
    std::string::size_type i = 0;
@@ -59,7 +63,7 @@ std::string before(std::string s, std::string delimiter) {
     return token;
 }
 
-std::string first_sentence(std::string s) {
+/*std::string first_sentence(std::string s) {
     std::string toteamus = before(s, std::string(". "));
     std::string huuto = before(s, std::string("! "));
     std::string kysymys = before(s, std::string("? "));
@@ -74,4 +78,65 @@ std::string first_sentence(std::string s) {
         else
             return toteamus+".";
     }
+}*/
+
+std::string first_sentence(std::string s) {
+    bool numero=false;
+    std::string lastword;
+    for(int i=0;i<s.length();i++){
+        char c = s.at(i);
+        if(!numero && lastword!="mm"){
+            if(c=='.' || c=='!' || c=='?'){
+                return s.substr(0, i);
+            }
+        }
+        numero=isdigit(c);
+
+        if(c==' '){
+            lastword="";
+        }else{
+            lastword+=c;
+        }
+    }
+    return s;
+
+}
+
+std::string finnishHyphenation(std::string s, std::string separator) {
+
+    const char *vokaalit = "aeiouyäöAEIOUYÄÖ";
+    const char *konsonantit = "bcdfghjklmnqprstvwxzBCDFGHJKLMNPQRSTVWXZ";
+
+    std::string pal="";
+    std::string tavu="";
+
+    std::vector<bool> tyypit;
+    for(int i=0;i<s.length();i++){
+        char c = s.at(i);
+        if(strchr(vokaalit, c)){
+            tyypit.push_back(false);
+        }else{
+            if (strchr(konsonantit, c)){
+                tyypit.push_back(true);
+            }else{
+                tyypit.clear();
+            }
+        }
+        tavu+=c;
+
+        if(tyypit.size()>2){
+            if((!tyypit.rbegin()[0]) && (tyypit.rbegin()[1])){
+                pal+=tavu.substr(0, tavu.length()-2)+separator;
+                tavu = tavu.erase(0, tavu.length()-2);
+            }
+        }
+
+
+    }
+
+    return pal+tavu;
+}
+
+int mainpppdhfdhf(int argc, char **argv){
+    std::cout << finnishHyphenation("Lähihoitaja on toisen asteen oppilaitoksissa opetettava sosiaali- ja terveysalan tutkinto.", "&shy;") << std::endl;
 }

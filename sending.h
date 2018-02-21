@@ -39,9 +39,13 @@ struct episode_t{
     //Episodename.
     //Only one phrase with one or a few words.
     //in XMLTV 'sub-title'-tag.
-    std::string subtitle;
+    std::string subtitle;    
 
     int number=0;       //episode number in season
+
+    std::string desc;
+
+    std::string url;    //episode url
 
     int firstshow=-1;   // address of sendingtable
 
@@ -55,7 +59,7 @@ struct episode_t{
         assert(c.programId);
         //auto other = dynamic_cast<const Circle*>(&c);
         //return other != 0 and /* check equality */;
-        return programId==c.programId && subtitle==c.subtitle && number==c.number;
+        return programId==c.programId && subtitle==c.subtitle && number==c.number && desc==c.desc;
         //return alanimi==c.alanimi && nro==c.nro;
     }
 };

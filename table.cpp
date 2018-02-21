@@ -84,7 +84,8 @@ void WeekTable::setChannelName(string name_of_channel)
     this->name_of_channel = name_of_channel;
 }
 
-void WeekTable::addProgram(const tm start, const tm end, std::string title, std::string categories, std::string director, int year, int season, int episode, int episodetotal, std::string subtitle, std::string url)
+void WeekTable::addProgram(const tm start, const tm end, std::string title, std::string categories, std::string director, int year,
+                           int season, int episode, int episodetotal, std::string subtitle, std::string desc, std::string url)
 {
     program_t prog;
     prog.title=title;
@@ -93,14 +94,16 @@ void WeekTable::addProgram(const tm start, const tm end, std::string title, std:
     prog.year=year;
     prog.season=season;
     prog.episodeTotal=episodetotal;
-    prog.url=url;
+    //prog.url=url;
 
     int prog_id = addUnique(prog, programs);
 
     episode_t epis;
     epis.number=episode;
     epis.subtitle=subtitle;
+    epis.desc=desc;
     epis.firstshow=-1;
+    epis.url=url;
 
     //if week is not set, using week on first program
     if(this->weeknro==-1)
@@ -266,8 +269,8 @@ void WeekTable::level(){
             if(this->sendingtable[d][t]!=this->sendingtable[d][t-1] ||          //ohjelma alkaa
                     this->sendingtable[d][t] != this->sendingtable[d][t+1]){    //ohjelma loppuu
 
-                //look-up
-                int naapuri[3][4];
+                //make look-up for neighbours
+                int near[3][4];
                 for(int dl=-1;dl<2;dl++){
                     for(int tl=-1;tl<3;tl++){
                         int id = 0;
@@ -275,52 +278,94 @@ void WeekTable::level(){
                             id = sendings.at(this->sendingtable[d+dl][t+tl]).programId;
                             //fprintf(stderr,"asetettiin id %d.\n",tl);
                         }
-                        naapuri[dl+1][tl+1]=id;
+                        near[dl+1][tl+1]=id;
                     }
                 }
 
-                int tama=naapuri[1][1];
+                int tama=near[1][1];
 
+                if(near[0][1] && near[2][1]
+                        && near[0][1]!=tama && near[2][1]!=tama){
 
-                if(naapuri[1][2]){
-                    if(naapuri[0][1]
-                            && naapuri[0][1]!=tama
-                            && naapuri[0][2]==tama
-                            && naapuri[1][2]==tama
-                            && naapuri[2][1]!=tama
+                    if(near[1][2]){
+                        if(        near[0][2]==tama
+                                && near[1][2]==tama
+                                && near[2][2]==tama
+                                ){
+                            if(near[0][1]==near[2][1])
+                                this->sendingtable[d][t]=this->sendingtable[d-1][t];
+                            else
+                                this->sendingtable[d][t]=LEVELLING_DOWN;
+                            fprintf(stderr,"yhdistettiin alas kohdassa %d - %d\n", d, t);
+                        }
+                    }
+
+                    if(near[1][0]){
+                        if(        near[0][0] == tama
+                                && near[1][0] == tama
+                                && near[2][0] == tama
+                                ){
+                            if(near[0][1]==near[2][1])
+                                this->sendingtable[d][t]=this->sendingtable[d-1][t];
+                            else
+                                this->sendingtable[d][t]=LEVELLING_UP;
+                            //this->sendingtable[d][t]=LEVELLING_UP;
+                            fprintf(stderr,"yhdistettiin ylös kohdassa %d - %d\n", d, t);
+                        }
+                        if(        near[1][2] && near[0][1] != near[0][2] && near[0][1] != near[2][2]
+                                && near[0][1] == near[1][0]
+                                && near[1][0] == near[2][1]
+                                ){
+                            if(tama == near[1][2])
+                                this->sendingtable[d][t]=this->sendingtable[d][t-1];
+
+                            //this->sendingtable[d][t]=LEVELLING_UP;
+                            fprintf(stderr,"yhdistettiin ylös kohdassa %d - %d\n", d, t);
+                        }
+                    }
+                }
+
+                /*
+                if(near[1][2]){
+                    if(near[0][1]
+                            && near[0][1]!=tama
+                            && near[0][2]==tama
+                            && near[1][2]==tama
+                            && near[2][1]!=tama
                             ){
                         this->sendingtable[d][t]=LEVELLING_DOWN;
                         //fprintf(stderr,"yhdistettiin kohdassa %d - %d\n", d, t);
                     }
-                    if(naapuri[2][1]
-                            && naapuri[2][1]!=tama
-                            && naapuri[2][2]==tama
-                            && naapuri[1][2]==tama
-                            && naapuri[0][1]!=tama
+                    if(near[2][1]
+                            && near[2][1]!=tama
+                            && near[2][2]==tama
+                            && near[1][2]==tama
+                            && near[0][1]!=tama
                             ){
                         this->sendingtable[d][t]=LEVELLING_DOWN;
                         //fprintf(stderr,"yhdistettiin kohdassa %d - %d\n", d, t);
                     }
                 }
 
-                if(naapuri[1][0] && naapuri[1][2]!=tama){
-                    if(naapuri[0][1]
-                            && naapuri[0][1]!=tama
-                            && naapuri[0][0]==tama
-                            && naapuri[1][0]==tama
+                if(near[1][0] && near[1][2]!=tama){
+                    if(near[0][1]
+                            && near[0][1]!=tama
+                            && near[0][0]==tama
+                            && near[1][0]==tama
                             ){
                         this->sendingtable[d][t]=LEVELLING_UP;
                         fprintf(stderr,"yhdistettiin kohdassa %d - %d\n", d, t);
                     }
-                    if(naapuri[2][1]
-                            && naapuri[2][1]!=tama
-                            && naapuri[2][0]==tama
-                            && naapuri[1][0]==tama
+                    if(near[2][1]
+                            && near[2][1]!=tama
+                            && near[2][0]==tama
+                            && near[1][0]==tama
                             ){
                         this->sendingtable[d][t]=LEVELLING_UP;
                         fprintf(stderr,"yhdistettiin kohdassa %d - %d\n", d, t);
                     }
                 }
+                */
             }
         }
     }
@@ -352,7 +397,7 @@ void WeekTable::getHTML(std::ostream& out)
     Writer writer(out);
     Table_writer *tablewriter;
     tablewriter = new Html_table_writer(writer, true);
-    getHTMLTable(*tablewriter);
+    getTable(*tablewriter);
     tablewriter->close();
 }
 
@@ -361,7 +406,7 @@ void WeekTable::getSVG(std::ostream& out)
     Writer writer(out);
     Table_writer *tablewriter;
     tablewriter = new Svg_writer(writer);
-    getHTMLTable(*tablewriter);
+    getTable(*tablewriter);
     tablewriter->close();
 }
 
@@ -372,7 +417,7 @@ bool WeekTable::canJoint(sending_t &sending1, sending_t &sending2){
     //olympialaisissa täytyy olla sama subtitle
     if(canjoin){
         std::string title = programs.at(sending1.programId).title;
-        if(title=="Korean olympialaiset" || title=="Talviolympialaiset 2018"){
+        if(title=="Korean olympialaiset" || title=="Talviolympialaiset 2018" || title=="Salpausselän kisat"){
             //canjoin=(episodes.at(sending1.programId).subtitle == episodes.at(sending2.programId).subtitle);
             canjoin=(episodes.at(sending1.episodeId).subtitle == episodes.at(sending2.episodeId).subtitle);
         }
@@ -381,7 +426,9 @@ bool WeekTable::canJoint(sending_t &sending1, sending_t &sending2){
     return canjoin;
 }
 
-void WeekTable::getHTMLTable(Table_writer &tablewriter){
+void WeekTable::getTable(Table_writer &tablewriter){
+
+    level();
 
     int rowspans[DAYSINWEEK] = {0};
     int namehashs[DAYSINWEEK] = {0};
@@ -489,8 +536,8 @@ int mainppp(int argc, char **argv)
     struct tm Tm2h = convert_to_sec_since1970("20171213180020");
 
     WeekTable vl;
-    vl.addProgram(Tm1, Tm2, "Uutiset", "", "", 0, 0, 0, 0, "", "");
-    vl.addProgram(Tm1h, Tm2h, "Uutiset", "", "", 0, 0, 0, 0, "", "");
+    vl.addProgram(Tm1,  Tm2,  "Uutiset", "", "", 0, 0, 0, 0, "", "", "");
+    vl.addProgram(Tm1h, Tm2h, "Uutiset", "", "", 0, 0, 0, 0, "", "", "");
     vl.getHTML(std::cout);
 
     //vl.setOhjelma(2,1,"Uutiset2");

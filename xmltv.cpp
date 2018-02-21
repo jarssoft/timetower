@@ -66,6 +66,7 @@ WeekTable wt;
 
 std::string title;
 std::string subtitle;
+std::string desc;
 std::string categories;
 std::string director;
 std::string url;
@@ -139,6 +140,7 @@ static void parse_programme(xmlNode * a_node)
     categories="";
     title = "";
     subtitle = "";
+    desc="";
     url="";
     director="";
 
@@ -165,6 +167,9 @@ static void parse_programme(xmlNode * a_node)
                         title=parts.at(0);
                         subtitle=parts.at(1);
                     }
+                    if(parts.size()>2){
+                        desc=parts.at(2)+". ";
+                    }
 
                     if(title=="#Subleffa"){
                         title=subtitle;
@@ -190,11 +195,12 @@ static void parse_programme(xmlNode * a_node)
                     kausi=op.kausi;
                     director=op.ohjaaja;
 
-                    //if(subtitle.length()==0)
-                    if(subtitle.length()>0 && op.tarkennin.length()>0)
-                        subtitle+=". ";
+                    /*
+                    if(desc.length()>0 && op.tarkennin.length()>0){
+                        desc+=". ";
+                    }*/
 
-                    subtitle+=op.tarkennin;
+                    desc+=op.tarkennin;
                 }
             }
 
@@ -225,6 +231,52 @@ static void parse_programme(xmlNode * a_node)
     }
 }
 
+std::string getOlympicLinks(std::string subtitle){
+
+    std::string article;
+
+    if(subtitle.find("Taitoluistelu") != -1)
+        article="Taitoluistelu";
+
+    if(subtitle.find("Alppihiihto") != -1)
+        article="Alppihiihto";
+
+    if(subtitle.find("Yhdistetty") != -1)
+        article="Yhdistetty";
+
+    if(subtitle.find("Curling") != -1)
+        article="Curling";
+
+    if(subtitle.find("Jääkiekko") != -1)
+        article="Jääkiekko";
+
+    if(subtitle.find("Lumilautailu") != -1)
+        article="Lumilautailu";
+
+    if(subtitle.find("Freestyle") != -1)
+        article="Freestylehiihto";
+
+    if(subtitle.find("Ampumahiihto") != -1)
+        article="Ampumahiihto";
+
+    if(subtitle.find("Hiihto") != -1)
+        article="Maastohiihto";
+
+    if(subtitle.find("Maastohiihto") != -1)
+        article="Maastohiihto";
+
+    if(subtitle.find("Pikaluistelu") != -1)
+        article="Pikaluistelu";
+
+    if(subtitle.find("Mäkihyppy") != -1)
+        article="Mäkihyppy";
+
+    if(article.length()>0)
+        return "http://fi.wikipedia.org/wiki/"+article+"_talviolympialaisissa_2018";
+    else
+        return "";
+}
+
 static void parse_tv(xmlNode * a_node)
 {
     xmlNode *cur_node = NULL;
@@ -249,14 +301,26 @@ static void parse_tv(xmlNode * a_node)
 
                     if(title=="Talviolympialaiset 2018"){
                         categories+=" sports olympic";
+                        url=getOlympicLinks(subtitle+desc);
                     }
 
                     if(title=="Korean olympialaiset"){
                         categories+=" olympic";
+                        url=getOlympicLinks(subtitle+desc);
+
                     }
 
+                    if(title=="Korean paralympialaiset"){
+                        categories+=" olympic";
+                    }
+
+                    /*if(title=="Uutisikkuna"){
+                        categories="None";
+                    }*/
+
                     wt.addProgram(alkaa, loppuu, title, categories, director,
-                                      vuosi, kausi, jakso, yhteensa, subtitle, url);
+                                      vuosi, kausi, jakso, yhteensa, subtitle, desc, url);
+
                 }
             }
         }

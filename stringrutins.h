@@ -19,4 +19,6 @@ std::string before(std::string s, std::string delimiter);
 /* Get first sentence of phrase. */
 std::string first_sentence(std::string s);
 
+std::string finnishHyphenation(std::string s, std::string hyphenseparator);
+
 #endif // STRINGRUTINS_H

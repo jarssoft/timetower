@@ -41,6 +41,11 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
 {
     //assert(((DAYSINWEEK-1) + (TICKSINDAY-1)) > totaltime);
 
+    std::string str_desc;
+
+    if(jointEpisodes.size()==1)
+        str_desc=jointEpisodes.at(0).desc;
+
     std::string str_subtitle="";
     {
         std::string last="";
@@ -59,7 +64,7 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
     bool showepisode=false;
     bool showsubtitle=false;
     {
-        int minutes = (shape.rowspan+1)*(60/TICKSINHOUR);
+        int minutes = (shape.rowspan+1) * (60/TICKSINHOUR);
 
         //cut too long words
         if(minutes<10 && shape.colspan<1)
@@ -68,8 +73,15 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
 
         int wordlenght = longest_word(program.title);
 
-        if(minutes<15)
-            sizeclass+=" SingleWide";
+
+        if((minutes<15 || wordlenght>12) && shape.colspan<1){
+            if(wordlenght>16){
+                sizeclass+=" SingleWide";
+            }else{
+                sizeclass+=" HalfWide";
+            }
+        }
+
         //if(minutes<45)
         //    sizeclass+=" SingleWide";
 
@@ -79,10 +91,15 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
         }
 
         if(minutes>10){
-            if(str_subtitle.length()<minutes*(shape.colspan+1)){
+            if(((str_subtitle+str_desc).length()+20)<minutes*(shape.colspan+1)){
                 showsubtitle=true;
             }
             showepisode=true;
+        }
+
+        if(longest_word(str_subtitle+" "+str_desc)>20 && shape.colspan<1){
+            //showsubtitle=false;
+            //str_desc="";
         }
 
         /*
@@ -94,7 +111,7 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
         */
 
         //movies
-        if(minutes>60 && wordlenght<13)
+        if(minutes>60 && wordlenght<12)
             sizeclass+=" DoubleWide";
 
         //daily series
@@ -215,7 +232,18 @@ void Html_table_writer::addCell(program_t program, std::vector<episode_t> jointE
 
         if(showsubtitle){
             writer.openElt("span").attr("class", "ProgramSubtitle");
+            if(jointEpisodes.size()==1 && jointEpisodes.at(0).url.length()>0){
+                writer.openElt("a");
+                writer.attr("href", jointEpisodes.at(0).url);
+            }
             writer.content(str_subtitle.c_str());
+            if(jointEpisodes.size()==1 && jointEpisodes.at(0).url.length()>0){
+                writer.closeElt();
+            }
+            if(jointEpisodes.size()==1){
+                writer.content(" ");
+                writer.direct(finnishHyphenation(str_desc, "&shy;").c_str());
+            }
             writer.closeElt();
         }
     }

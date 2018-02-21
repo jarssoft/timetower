@@ -65,6 +65,14 @@ public:
     return *this;
   }
 
+  Writer& direct(const char* str) {
+    this->closeTag();
+    for (; *str; str++){
+      os.put(*str);
+    }
+    return *this;
+  }
+
 private:
   std::ostream& os;
   bool tag_open;
