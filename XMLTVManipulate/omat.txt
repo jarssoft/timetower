@@ -1,0 +1,173 @@
+title,                  url,category
+Yle Uutiset ja sää,      ,News
+Salatut elämät,         https://www.salatutelamat.fi/,Fiktio
+Salatut elämät,         https://www.mtv.fi/sarja/salatut-elamat-33005005,
+Emmerdale,              https://www.mtv.fi/sarja/emmerdale-33005003,
+Kauniit ja rohkeat,     https://www.mtv.fi/sarja/kauniit-ja-rohkeat-33005002,Fiktio
+C.S.I. Cyber,           ,Fiktio
+Farang,                 ,Fiktio
+Scorpion,               ,Fiktio
+Simpsonit,              ,Fiktio
+Sinkkuelämää,           ,Fiktio
+Solsidan,				,Fiktio
+The Joulukalenteri,     ,Fiktio
+Eloonjääneet,           ,Fiktio
+Moderni perhe,          ,Fiktio
+Kumman kaa,             ,Fiktio
+Family Guy,             ,Fiktio
+The Cool Kids,          ,Fiktio
+Scream Queens,          ,Fiktio
+The Orville,            ,Fiktio
+Single Parents,         ,Fiktio
+New Girl,               ,Fiktio
+How I Met Your Mother,  ,Fiktio
+Kova laki: Erikoisyksikkö,,Fiktio
+70's show,              ,Fiktio
+Te­ra­pian tar­pees­sa,     ,Fiktio
+Jääkiekkoa,             ,Sports
+Liiga,                  ,Sports
+Formula E,              ,Sports
+Snooker,                ,Sports
+Myyrä,                  ,Reality
+Kum­me­li e­sit­tää: Kon­tio & Par­mas,,Fiktio
+Pi­tää­kö ol­la huo­lis­saan?,https://www.mtv.fi/sarja/pitaako-olla-huolissaan-33006209,
+Putous                  ,https://www.mtv.fi/sarja/putous-33006172,
+C.S.I. Cyber            ,https://www.mtv.fi/sarja/c-s-i-cyber-33005208,
+C.S.I.                  ,https://www.mtv.fi/sarja/c-s-i-33005019,
+Kymmenen uutiset        ,https://www.mtv.fi/sarja/kymmenen-uutiset-33001001,
+Posse                   ,https://www.mtv.fi/sarja/posse-33006170,
+Rikospaikka             ,https://www.mtv.fi/sarja/rikospaikka-33001037,
+Stadi vs. Lande         ,https://www.mtv.fi/sarja/stadi-vs-lande-33006220,
+Teknavi                 ,https://www.mtv.fi/sarja/teknavi-33007010,
+Tuubi                   ,https://www.mtv.fi/sarja/tuubi-33006132,
+The Joulukalenteri      ,https://www.mtv.fi/sarja/the-joulukalenteri-33006261,
+Biljardin Tupla SM-kisat,,Sports
+Lämäri,,Sports
+FinRX Crosskart,,Sports
+Snowcross,http://alfatv.fi/ohjelmisto/snowcross-2019/,Sports
+Lämäri,http://alfatv.fi/ohjelmisto/lamari/,Sports
+FinRX Crosskart,,Sports
+Sledstore SM,,Sports
+Moottorikelkkailun SledstoreSM 2019,      ,Sports
+Moottorikelkkailun SM- Sprint 2018,      ,Sports
+Uutiset,http://alfatv.fi/ohjelmisto/uutiset/,News
+CBN News,http://alfatv.fi/ohjelmisto/cbn-news/,News
+Ultimate Rush,http://alfatv.fi/ohjelmisto/ultimate-rush/,Sports
+Koukussa adrenaliiniin,http://alfatv.fi/ohjelmisto/koukussa-adrenaliiniin/,Sports
+Swim.Bike.Run.,http://alfatv.fi/ohjelmisto/swim-bike-run/,Sports
+Painonnoston SM 2019 Helsinki,      ,Sports
+Kansan kesken,http://alfatv.fi/ohjelmisto/kansan-kesken/,Asiaohjelmat
+AlfaStudio,http://alfatv.fi/ohjelmisto/alfastudio/,Asiaohjelmat
+Isäntänä Tapani Ruokanen,,Asiaohjelmat
+Dosentti,http://alfatv.fi/ohjelmisto/dosentti/,Asiaohjelmat
+Filminurkka,http://alfatv.fi/ohjelmisto/filminurkka/,Kulttuuri
+Inkerin silta,http://alfatv.fi/ohjelmisto/inkerin-silta/,Kulttuuri
+Kuvia ja käännekohtia,http://alfatv.fi/ohjelmisto/kuvia-ja-kaannekohtia/,Kulttuuri
+Kädet puhuvat,http://alfatv.fi/ohjelmisto/kadet-puhuvat/,Kulttuuri
+Tanssi kanssain,http://alfatv.fi/ohjelmisto/tanssi-kanssain/,Kulttuuri
+Romantiikan jättiläiset,http://www.permanto.fi/fi/web//alfatv/player/vod?assetId=11865393,Kulttuuri
+Luonnon insinöörit,http://alfatv.fi/ohjelmisto/luonnon-insinoorit/,Dokumentit
+Elefanttien matkassa,http://alfatv.fi/ohjelmisto/elefanttien-matkassa/,Dokumentit
+Kosketuskohta,http://alfatv.fi/ohjelmisto/kosketuskohta-2/,Asiaohjelmat
+Lähetysraportti,http://alfatv.fi/ohjelmisto/lahetysraportti/,Asiaohjelmat
+Israel tutuksi,http://alfatv.fi/ohjelmisto/israel-tutuksi/,Asiaohjelmat
+Astu tarinaan,http://alfatv.fi/ohjelmisto/astu-tarinaan/,Asiaohjelmat
+Koko kansan Kirja,http://alfatv.fi/ohjelmisto/koko-kansan-kirja/,Asiaohjelmat
+H.E.T.K.I.,http://alfatv.fi/ohjelmisto/h-e-t-k/,Asiaohjelmat
+Jahtikuksa,http://alfatv.fi/ohjelmisto/jahtikuksa/,Asiaohjelmat
+Jussin kalajutut,http://alfatv.fi/ohjelmisto/jussin-kalajutut/,Asiaohjelmat
+Mayn keittiö,http://alfatv.fi/ohjelmisto/mayn-keittio/,Asiaohjelmat
+Pirren olkkarissa,http://alfatv.fi/ohjelmisto/pirren-olkkarissa/,Asiaohjelmat
+------------------,---------------------,------------------------
+TV4Nyheterna,https://www.tv4play.se/program/nyheterna,Uutiset
+Ekonominyheterna,https://www.tv4play.se/program/ekonomi,Uutiset
+Sporten,https://www.tv4play.se/program/sporten,Urheilu
+TV4Vädret,https://www.tv4play.se/program/v%C3%A4der/,Uutiset
+Robinson,https://www.tv4play.se/program/robinson,Reality
+Efter fem,https://www.tv4play.se/program/efter-fem,Ajankohtaisohjelmat
+Nyhetsmorgon,https://www.tv4play.se/program/nyhetsmorgon,Ajankohtaisohjelmat
+Wallander,https://www.tv4play.se/program/wallander,Fiktio
+Rapport,https://www.svtplay.se/rapport,Uutiset
+Sverige idag,https://www.svtplay.se/sverige-idag,Uutiset
+Lokala nyheter,https://www.svtplay.se/genre/lokala-nyheter,Uutiset
+Kulturnyheterna,https://www.svtplay.se/kulturnyheterna,Uutiset
+Sportnytt,https://www.svtplay.se/sportnytt,Urheilu
+Go'kväll,https://www.svtplay.se/gokvall,Ajankohtaisohjelmat
+Morgonstudion,https://www.svtplay.se/morgonstudion,Ajankohtaisohjelmat
+Skärgårdsdoktorn,https://www.svtplay.se/skargardsdoktorn,Fiktio
+Nyhetstecken,https://www.svtplay.se/nyhetstecken,Uutiset
+Oddasat,https://www.svtplay.se/oddasat,Uutiset
+Aktuellt,https://www.svtplay.se/aktuellt,Ajankohtaisohjelmat
+TV4Nyheterna och sport,,Uutiset
+TV4Nyheterna extra,,Uutiset
+Nyhetssammanfattning,,Uutiset
+Columbo,,Fiktio
+Sportnytt i Morgonstudion,,Urheilu
+Myytinmurtajat,https://www.mtv.fi/sarja/myytinmurtajat-33006003,Reality
+Supernanny Suomi,,Reality
+Vappu ja Marja Live,,Keskustelu
+Stadi vs. Lande,,viihde
+Siipan saappaissa,,Reality
+Masked Singer Suomi,,Viihde
+Suurmestari,,Viihde
+Posse,,Viihde
+Best of Posse,,Viihde
+Vedetään hatusta,,Viihde
+First Dates Suomi ,,Tosi-tv
+Huuma,,Viihde
+Frendit,,Fiktio
+Killing Eve,,Fiktio
+Gåsmamman,,Fiktio
+Älä jäähdy,,Fiktio
+Criminal Minds,,Fiktio
+Why Women Kill,,Fiktio
+Kymppitonni,,Viihde
+Uutiskauha,,Asiaohjelmat
+Huippunaiset,,Asiaohjelmat
+Koronastudio,,Asiaohjelmat
+Koronalive,,Asiaohjelmat
+Hyvän päivä,,Asiaohjelmat
+Lukutoukka,,Asiaohjelmat
+Vanhanen,,Asiaohjelmat
+Senooriseisake,,Asiaohjelmat
+Score,,Asiaohjelmat
+TerveysSummit,,Asiaohjelmat
+Kuvia ja käännekohtia,,Kulttuuri
+Raja,,Kulttuuri
+Onnemme kyyneleet,,Kulttuuri
+Kultainen ja hopeinen harmonikka,,Kulttuuri
+Paimenpojasta Inkerin piispaksi,,Dokumentti
+100 kaunista kohdetta Suomesta,,Dokumentti
+Seinäjoen Tangomarkkinoilla,,Dokumentti
+Ilman kirjeenvaihto-oikeutta,,Dokumentti
+Mielikuvitusteoria -evoluutio,,Dokumentti
+Tuntematon potilas,,Dokumentti
+Ratkaisevia käänteitä Suomen sodissa,,Dokumentti
+Vankilalähetit,,Dokumentti
+Sininen ovaali Ford 90 vuotta,,Dokumentti
+Kilpisjärveltä itään,,Dokumentti
+Urheiluradio.,,Sports
+Urheiluradio,,Sports
+Yle News,,News
+Iltahartaus,,Asiaohjelmat
+Aamuhartaus,,Asiaohjelmat
+Yöklassinen,,Musiikki
+Aamusoitto,,Musiikki
+Iltasoitto,,Musiikki
+Faunin iltapäivä,,Musiikki
+Faunin iltapäivän kuuntelijoiden toiveita,,Musiikki
+Hartaita säveliä,,Musiikki
+Klassinen kattaus,,Musiikki
+Muistojen bulevardi,,Musiikki
+#Euroopan valot,,Musiikki
+#Radion sinfoniaorkesterin konsertti,,Musiikki
+Yöradio,,Musiikki
+Yöradio - toiveiden yö,,Musiikki
+Nattklassikt,,Musiikki
+Vega Musik,,Musiikki
+Vega Dans,,Musiikki
+Päivän mietelause ja Turun tuomiokirkon kello lyö 12,,Asiaohjelmat
+Yle Uutiset selkosuomeksi.,,News
+Puheen Aamu,,Ajankohtaisohjelmat
+Puheen Aamusta,,Ajankohtaisohjelmat
+Puheen Ilta,,Ajankohtaisohjelmat

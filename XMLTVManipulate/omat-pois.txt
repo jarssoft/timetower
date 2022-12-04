@@ -1,0 +1,81 @@
+title,                  url,category
+Yle Uutiset ja sää,      ,News
+Salatut elämät,         https://www.salatutelamat.fi/,Draama
+Salatut elämät,         https://www.mtv.fi/sarja/salatut-elamat-33005005,
+Emmerdale,              https://www.mtv.fi/sarja/emmerdale-33005003,
+Kauniit ja rohkeat,     https://www.mtv.fi/sarja/kauniit-ja-rohkeat-33005002,Draama
+C.S.I. Cyber,           ,Draama
+Farang,                 ,Draama
+Scorpion,               ,Draama
+Simpsonit,              ,Draama
+Sinkkuelämää,           ,Draama
+Solsidan,				,Draama
+The Joulukalenteri,     ,Draama
+Eloonjääneet,           ,Draama
+Moderni perhe,          ,Draama
+Kumman kaa,             ,Draama
+Family Guy,             ,Draama
+The Cool Kids,          ,Draama
+Scream Queens,          ,Draama
+The Orville,            ,Draama
+Single Parents,         ,Draama
+New Girl,               ,Draama
+How I Met Your Mother,  ,Draama
+Kova laki: Erikoisyksikkö,,Draama
+70's show,              ,Draama
+Te­ra­pian tar­pees­sa,     ,Draama
+Jääkiekkoa,             ,Sports
+Liiga,                  ,Sports
+Formula E,              ,Sports
+Snooker,                ,Sports
+Myyrä,                  ,Reality
+Kum­me­li e­sit­tää: Kon­tio & Par­mas, ,Draama
+Pi­tää­kö ol­la huo­lis­saan?,https://www.mtv.fi/sarja/pitaako-olla-huolissaan-33006209,
+Putous                  ,https://www.mtv.fi/sarja/putous-33006172,
+C.S.I. Cyber            ,https://www.mtv.fi/sarja/c-s-i-cyber-33005208,
+C.S.I.                  ,https://www.mtv.fi/sarja/c-s-i-33005019,
+Kymmenen uutiset        ,https://www.mtv.fi/sarja/kymmenen-uutiset-33001001,
+Posse                   ,https://www.mtv.fi/sarja/posse-33006170,
+Rikospaikka             ,https://www.mtv.fi/sarja/rikospaikka-33001037,
+Stadi vs. Lande         ,https://www.mtv.fi/sarja/stadi-vs-lande-33006220,
+Teknavi                 ,https://www.mtv.fi/sarja/teknavi-33007010,
+Tuubi                   ,https://www.mtv.fi/sarja/tuubi-33006132,
+The Joulukalenteri      ,https://www.mtv.fi/sarja/the-joulukalenteri-33006261,
+Biljardin Tupla SM-kisat,,Sports
+Lämäri,,Sports
+FinRX Crosskart,,Sports
+Snowcross,http://alfatv.fi/ohjelmisto/snowcross-2019/,Sports
+Lämäri,http://alfatv.fi/ohjelmisto/lamari/,Sports
+FinRX Crosskart,,Sports
+Sledstore SM,,Sports
+Moottorikelkkailun SledstoreSM 2019,      ,Sports
+Moottorikelkkailun SM- Sprint 2018,      ,Sports
+Uutiset,http://alfatv.fi/ohjelmisto/uutiset/,News
+CBN News,http://alfatv.fi/ohjelmisto/cbn-news/,News
+Ultimate Rush,http://alfatv.fi/ohjelmisto/ultimate-rush/,Sports
+Koukussa adrenaliiniin,http://alfatv.fi/ohjelmisto/koukussa-adrenaliiniin/,Sports
+Swim.Bike.Run.,http://alfatv.fi/ohjelmisto/swim-bike-run/,Sports
+Painonnoston SM 2019 Helsinki,      ,Sports
+Kansan kesken,http://alfatv.fi/ohjelmisto/kansan-kesken/,Asiaohjelmat
+AlfaStudio,http://alfatv.fi/ohjelmisto/alfastudio/,Asiaohjelmat
+Uutiskauha,http://alfatv.fi/ohjelmisto/uutiskauha/,Asiaohjelmat
+Isäntänä Tapani Ruokanen,,Asiaohjelmat
+Dosentti,http://alfatv.fi/ohjelmisto/dosentti/,Asiaohjelmat
+Filminurkka,http://alfatv.fi/ohjelmisto/filminurkka/,Kulttuuri
+Inkerin silta,http://alfatv.fi/ohjelmisto/inkerin-silta/,Kulttuuri
+Kuvia ja käännekohtia,http://alfatv.fi/ohjelmisto/kuvia-ja-kaannekohtia/,Kulttuuri
+Kädet puhuvat,http://alfatv.fi/ohjelmisto/kadet-puhuvat/,Kulttuuri
+Tanssi kanssain,http://alfatv.fi/ohjelmisto/tanssi-kanssain/,Kulttuuri
+Romantiikan jättiläiset,http://www.permanto.fi/fi/web//alfatv/player/vod?assetId=11865393,Kulttuuri
+Luonnon insinöörit,http://alfatv.fi/ohjelmisto/luonnon-insinoorit/,Dokumentit
+Elefanttien matkassa,http://alfatv.fi/ohjelmisto/elefanttien-matkassa/,Dokumentit
+Kosketuskohta,http://alfatv.fi/ohjelmisto/kosketuskohta-2/,Asiaohjelmat
+Lähetysraportti,http://alfatv.fi/ohjelmisto/lahetysraportti/,Asiaohjelmat
+Israel tutuksi,http://alfatv.fi/ohjelmisto/israel-tutuksi/,Asiaohjelmat
+Astu tarinaan,http://alfatv.fi/ohjelmisto/astu-tarinaan/,Asiaohjelmat
+Koko kansan Kirja,http://alfatv.fi/ohjelmisto/koko-kansan-kirja/,Asiaohjelmat
+H.E.T.K.I.,http://alfatv.fi/ohjelmisto/h-e-t-k/,Asiaohjelmat
+Jahtikuksa,http://alfatv.fi/ohjelmisto/jahtikuksa/,Asiaohjelmat
+Jussin kalajutut,http://alfatv.fi/ohjelmisto/jussin-kalajutut/,Asiaohjelmat
+Mayn keittiö,http://alfatv.fi/ohjelmisto/mayn-keittio/,Asiaohjelmat
+Pirren olkkarissa,http://alfatv.fi/ohjelmisto/pirren-olkkarissa/,Asiaohjelmat

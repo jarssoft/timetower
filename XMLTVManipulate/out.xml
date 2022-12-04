@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="Taiga XMLTV" generator-info-url="http://xmltv.se">
+  <programme start="20180825033000" stop="20180825042000" channel="natgeo.fi">
+    <title lang="fi">Huumebisnes Oy</title>
+    <sub-title lang="fi">Detroit Halloween</sub-title>
+    <desc lang="fi">Detroitin halloween. Detroitissa vietetään halloweenia. Diilerit varustavat keskustan juhlijoita kaduilla ja keskiluokan huumekauppiaat vievät huvihuumeita bileisiin. National Geographic Channel.</desc>
+    <credits>
+      <actor role="Herself">Christina Aguilera</actor>
+      <actor role="Himself">Blake Shelton</actor>
+      <actor role="Himself">Adam Levine</actor>
+      <actor role="Himself">Carson Daly</actor>
+      <actor role="Social Media Correspondent">Christina Milian</actor>
+      <actor role="Himself">CeeLo Green</actor>
+      <actor role="Himself">Javier Colon</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">6 . 6 .</episode-num>
+    <episode-num system="onscreen">Episode 7 season 7</episode-num>
+    <episode-num system="thetvdb.com">series/174501</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <star-rating>
+      <value>7.6 / 9</value>
+    </star-rating>
+  <episode-num system="xmltv_ns">6 . 6 .</episode-num></programme>
+  <programme start="20180825042000" stop="20180825051000" channel="natgeo.fi">
+    <title lang="fi">Yukonin kultamaat</title>
+    <sub-title lang="fi">Fresh Start</sub-title>
+    <desc lang="fi">Ken ja Guillaume jättävät Moose Creekin taakseen ja suuntaavat vieläkin syrjäisempään Arizona Creekiin, mutta kultaa ei löydy ainakaan heti.</desc>
+    <date>2013</date>
+    <category lang="en">series</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">2 . 0 .</episode-num>
+    <episode-num system="onscreen">Episode 1 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/267736</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 0 .</episode-num></programme>
+  <programme start="20180825051000" stop="20180825060000" channel="natgeo.fi">
+    <title lang="fi">Muinaiset salaiset kansiot</title>
+    <sub-title lang="fi">Muinaiset salaiset kansiot</sub-title>
+    <desc lang="fi">Mary Magdalene has long been known as a repentant sinner, a saint, and perhaps most importantly, the witness to the resurrection. But author Margaret Starbird believes that she was also Jesus' wife, mother of his child and victim of the biggest conspiracy in history. In this television exclusive she examines what some have claimed could be one of the earliest Christian artefacts ever discovered and untangles a riddle that she believes reveals the truth about this mysterious woman from the bible.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">1 . 6/13 .</episode-num>
+    <episode-num system="onscreen">Episode 7 of 13 season 2</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">1 . 6/13 .</episode-num></programme>
+  <programme start="20180825060000" stop="20180825065000" channel="natgeo.fi">
+    <title lang="fi">Rajasota</title>
+    <sub-title lang="fi">Target of Opportunity</sub-title>
+    <desc lang="fi">Sumun seassa. Yhdysvaltain ja Meksikon rajalla viranomaiset taistelevat laitonta maahanmuuttoa ja salakuljetusta vastaan. Kun sumu laskeutuu rajalle, tekniikasta ei ole apua. Toiminnallinen dokumenttisarja, National Geographic.</desc>
+    <credits>
+      <director>Denis McGrath</director>
+      <actor role="Gray Jackson">Graham Abbey</actor>
+      <actor role="Khalida Massi">Athena Karkanis</actor>
+      <actor role="Maggie Norton">Catherine Disher</actor>
+      <actor role="Slade">Jonas Chernick</actor>
+      <actor role="Bianca LaGarda">Sofia Milos</actor>
+      <actor role="Andrew Mannering">Nigel Bennett</actor>
+      <actor role="Agent Charlotte Bates">Daisy Beaumont</actor>
+      <actor role="Mike Kessler">James McGowan</actor>
+      <actor role="Al &quot;Moose&quot; Lepinsky">Mark Wilson</actor>
+      <actor role="Agent Liz Carver">Grace Park</actor>
+      <actor role="Darnell Williams">Jim Codrington</actor>
+      <actor role="Layla Hourani">Nazneen Contractor</actor>
+      <actor>Linda Carter</actor>
+      <actor>Darrell Hicks</actor>
+      <writer>Michael DeCarlo</writer>
+    </credits>
+    <date>2008</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    
+    <episode-num system="xmltv_ns">1 . 1 .</episode-num>
+    <episode-num system="onscreen">Episode 2 season 2</episode-num>
+    <episode-num system="thetvdb.com">series/81114</episode-num>
+    <video>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">1 . 1 .</episode-num></programme>
+  <programme start="20180825065000" stop="20180825074000" channel="natgeo.fi">
+    <title lang="fi">Kaivosten kuninkaat</title>
+    <sub-title lang="fi">Huikeat granaatit</sub-title>
+    <desc lang="fi">Huikeat granaatit. Matka käy masain maille Tansaniaan pienelle eettisesti toimivalle kaivokselle, joka tuottaa Afrikan surullisenkuuluisia pinkkejä granaatteja. National Geographic.</desc>
+    <date>2015</date>
+    <category lang="en">series</category>
+    <category lang="en">Action</category>
+    <episode-num system="xmltv_ns">0 . 4/8 .</episode-num>
+    <episode-num system="onscreen">Episode 5 of 8 season 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 4/8 .</episode-num></programme>
+  <programme start="20180825074000" stop="20180825083000" channel="natgeo.fi">
+    <title lang="fi">Kesyttämätön Amerikka</title>
+    <sub-title lang="fi">Deserts</sub-title>
+    <desc lang="fi">Stunning HD cinematography produces an epic yet intimate journey through America's deserts. Everything in the desert lives and dies at the mercy of water. Dry, inhospitable wilderness, they are among the harshest, most extreme environments on the planet. Wind and water sculpt these thirst-lands into natural monuments... as unique as they are spectacular. But look closer and the desert reveals a SECRET WORLD of INTRIGUE... surprising stories of survival, epic perseverance... and things you've never seen before. All of America's deserts provide something... a hidden bounty for those who know where to find it... and how to use it. Title Final Yes</desc>
+    <credits>
+      <actor role="Narrator">Josh Brolin</actor>
+    </credits>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Mini</category>
+    
+    <episode-num system="xmltv_ns">0 . 2 .</episode-num>
+    <episode-num system="onscreen">Episode 3 season 1</episode-num>
+    <episode-num system="thetvdb.com">series/260040</episode-num>
+    <video>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 2 .</episode-num></programme>
+  <programme start="20180825083000" stop="20180825092000" channel="natgeo.fi">
+    <title lang="fi">Cesar Millan: Viva Las Vegas!</title>
+    <sub-title lang="fi">Cesar Millan: Viva Las Vegas!</sub-title>
+    <desc lang="fi">Katso, kuinka Cesar Millan esiintyy koirafanien edessä Las Vegasin loisteessa. Hän ottaa lavalla yhteyttä niin faneihin kuin koiriin.</desc>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">. 0/1 .</episode-num>
+    <episode-num system="onscreen">Episode 1 of 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">. 0/1 .</episode-num></programme>
+  <programme start="20180825092000" stop="20180825094500" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 1</sub-title>
+    <desc lang="fi">Kausi 3. Osa 1. Jaksossa opitaan monia tapoja, joilla satuttaa ja nolata itseään varjoliidon ja motocrossin parissa tai joutumalla alushousumetkujen uhriksi. National Geographic.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 0 .</episode-num>
+    <episode-num system="onscreen">Episode 1 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 0 .</episode-num></programme>
+  <programme start="20180825094500" stop="20180825101000" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 2</sub-title>
+    <desc lang="fi">Kausi 3. Osa 4. Jaksossa opitaan, kuinka voi loukkaantua ja häpäistä itsensä kalliosukelluksessa, moukaria huitomalla ja skootterin satulassa. National Geographic.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 1 .</episode-num>
+    <episode-num system="onscreen">Episode 2 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 1 .</episode-num></programme>
+  <programme start="20180825101000" stop="20180825103500" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 3</sub-title>
+    <desc lang="fi">Kausi 3. Osa 5. Itsensä nolaaminen käy helposti keulimalla kahden hengen voimin moottoripyörällä, ravaamalla suuressa juoksupyörässä ja trampoliinilla pomppien. National Geographic.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 2 .</episode-num>
+    <episode-num system="onscreen">Episode 3 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>4:3</aspect>
+    </video>
+  <episode-num system="xmltv_ns">2 . 2 .</episode-num></programme>
+  <programme start="20180825103500" stop="20180825110000" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 4</sub-title>
+    <desc lang="fi">Kausi 3. Osa 3. Esittelyssä monta tapaa nolata itsensä katukelkkakisoissa, eritasonojapuilla ja pyöräilemällä portaita alas. National Geographic.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 3 .</episode-num>
+    <episode-num system="onscreen">Episode 4 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 3 .</episode-num></programme>
+  <programme start="20180825110000" stop="20180825115000" channel="natgeo.fi">
+    <title lang="fi">Yhdistävä 90-luku</title>
+    <sub-title lang="fi">6. jakso</sub-title>
+    <desc lang="fi">6. jakso. Vuosisadan loppulaskenta on alkanut ja uuden vuosituhannen alkujännitys kiristyy, kun Osama Bin Laden julistaa sodan Yhdysvaltoja vastaan. National Geographic Channel.</desc>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">0 . 5/6 .</episode-num>
+    <episode-num system="onscreen">Episode 6 of 6 season 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 5/6 .</episode-num></programme>
+  <programme start="20180825115000" stop="20180825124000" channel="natgeo.fi">
+    <title lang="fi">Lentoturmatutkinta</title>
+    <sub-title lang="fi">Massacre Over The Mediterranean (Aerolinee Itavia, Flight 870)</sub-title>
+    <desc lang="fi">Kolmas kerta epäonnea. Kun lennonjohto antoi luvan Manx2-koneen laskeutua Irlantiin Corkin lentokentälle, kone joutui yllättäen kierteeseen ja syöksyi maahan. National Geographic Channel.</desc>
+    <credits>
+      <actor>Michelle Arvizu</actor>
+      <actor>Dylan Ramsey</actor>
+      <actor>James Murray</actor>
+    </credits>
+    <date>2003</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">12 . 8 .</episode-num>
+    <episode-num system="onscreen">Episode 9 season 13</episode-num>
+    <episode-num system="thetvdb.com">series/79771</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <star-rating>
+      <value>8.6 / 9</value>
+    </star-rating>
+  <episode-num system="xmltv_ns">12 . 8 .</episode-num><url>http://fi.wikipedia.org/wiki/Lentoturmatutkinta</url></programme>
+  <programme start="20180825124000" stop="20180825133000" channel="natgeo.fi">
+    <title lang="fi">Lentoturmatutkinta</title>
+    <sub-title lang="fi">Qantas 32: Titanic In The Sky (Qantas, Flight 32)</sub-title>
+    <desc lang="fi">Kuolema arktisissa olosuhteissa. First Airin lentokone törmäsi kukkulaan lähellä maailman syrjäisimpiin lentokenttiin kuuluvaa Resoluten Bayn kenttää Kanadassa. National Geographic Channel.</desc>
+    <credits>
+      <actor>Michelle Arvizu</actor>
+      <actor>Dylan Ramsey</actor>
+      <actor>James Murray</actor>
+    </credits>
+    <date>2003</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">12 . 9 .</episode-num>
+    <episode-num system="onscreen">Episode 10 season 13</episode-num>
+    <episode-num system="thetvdb.com">series/79771</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <star-rating>
+      <value>8.6 / 9</value>
+    </star-rating>
+  <episode-num system="xmltv_ns">12 . 9 .</episode-num><url>http://fi.wikipedia.org/wiki/Lentoturmatutkinta</url></programme>
+  <programme start="20180825133000" stop="20180825142000" channel="natgeo.fi">
+    <title lang="fi">Hurjat tonnikalat</title>
+    <sub-title lang="fi">Hissy Fit</sub-title>
+    <desc lang="fi">Last season's champion, FV-Tina.Com, and New Hampshire upstart, Pinwheel, continue to dominate the fleet as they have all season.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 8 .</episode-num>
+    <episode-num system="onscreen">Episode 9 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/257494</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 8 .</episode-num></programme>
+  <programme start="20180825142000" stop="20180825151000" channel="natgeo.fi">
+    <title lang="fi">Hurjat tonnikalat</title>
+    <sub-title lang="fi">Purple Rain</sub-title>
+    <desc lang="fi">With just three weeks left in the season, the fleet learns that they will be facing major storm fronts over the next few days.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 9 .</episode-num>
+    <episode-num system="onscreen">Episode 10 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/257494</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 9 .</episode-num></programme>
+  <programme start="20180825151000" stop="20180825160500" channel="natgeo.fi">
+    <title lang="fi">Hurjat tonnikalat</title>
+    <sub-title lang="fi">The End is Nigh</sub-title>
+    <desc lang="fi">In Gloucester, Massachusetts, there are only two weeks left of this year's Atlantic Bluefin tuna season.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 10 .</episode-num>
+    <episode-num system="onscreen">Episode 11 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/257494</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 10 .</episode-num></programme>
+  <programme start="20180825160500" stop="20180825170000" channel="natgeo.fi">
+    <title lang="fi">Hurjat tonnikalat</title>
+    <sub-title lang="fi">The Time is Now</sub-title>
+    <desc lang="fi">It's the last week of the season and with days running out to produce, the Gloucester captains battle it out for their final Bluefin, in one of the closest finishes in Wicked Tuna history.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 11 .</episode-num>
+    <episode-num system="onscreen">Episode 12 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/257494</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 11 .</episode-num></programme>
+  <programme start="20180825170000" stop="20180825180000" channel="natgeo.fi">
+    <title lang="fi">Vaarallisen valtatien pelastajat</title>
+    <sub-title lang="fi">Bumpy Ride</sub-title>
+    <desc lang="fi">Sarjassa seurataan hinausfirman työntekijöitä, jotka pelastavat hätään joutuneita autoilijoita ja kohtaavat mitä mielenkiintoisempia haasteita.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 10 .</episode-num>
+    <episode-num system="onscreen">Episode 11 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/262152</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 10 .</episode-num></programme>
+  <programme start="20180825180000" stop="20180825183000" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 27</sub-title>
+    <desc lang="fi">The show that combines cold hard science with some of the craziest, most spectacular and painful user generated clips ever recorded is back for a third season. In this episode we learn just how many ways there are to embarrass, injure and humiliate yourself when parking a boat, attempting a rail grind on a bike or simply popping a balloon.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 26 .</episode-num>
+    <episode-num system="onscreen">Episode 27 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 26 .</episode-num></programme>
+  <programme start="20180825183000" stop="20180825190000" channel="natgeo.fi">
+    <title lang="fi">Science of Stupid</title>
+    <sub-title lang="fi">Episode 28</sub-title>
+    <desc lang="fi">In this episode we learn just how many ways there are to embarrass, injure and humiliate yourself when attempting a parkour 'wall spin', sprinting or trying to use an umbrella as a makeshift parachute.</desc>
+    <credits>
+      <actor role="Host">Richard Hammond</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 27 .</episode-num>
+    <episode-num system="onscreen">Episode 28 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/280473</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">2 . 27 .</episode-num></programme>
+  <programme start="20180825190000" stop="20180825200000" channel="natgeo.fi">
+    <title lang="fi">Access 360 Maailmanperintö</title>
+    <sub-title lang="fi">Amazon</sub-title>
+    <desc lang="fi">There's a special place in the heart of the Amazon rainforest with ecosystems so unique and biodiversity so rich the UN have declared it a World Heritage Site. But the threats of climate change are looming. If nobody takes action this pristine wilderness could wither in decades and the effects would be devastating, not only here but across the planet. Now a team of four courageous people have devoted their lives to the protection of this corner of rainforest. Braving an unforgiving jungle and extreme weather, they give us 360 access into the challenges, the setbacks and the successes of their everyday work.</desc>
+    <date>2011</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">0 . 0/9 .</episode-num>
+    <episode-num system="onscreen">Episode 1 of 9 season 1</episode-num>
+    <video>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 0/9 .</episode-num></programme>
+  <programme start="20180825200000" stop="20180825210000" channel="natgeo.fi">
+    <title lang="fi">Hurjat tonnikalat</title>
+    <sub-title lang="fi">Trials and Tunalations</sub-title>
+    <desc lang="fi">Every boat, except the Wicked Pissah, caught fish during the first week of Bluefin tuna season, so all eyes are on Captain Paul Herbert to land his first tuna. After a great season last year, a lot of people attributed all of Paul's success to the skill of his first mate-turned-rival Captain Brad Krasowski. Paul vows that he's going to prove all of his critics wrong.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <category lang="en">Drama</category>
+    <category lang="en">Reality</category>
+    
+    <episode-num system="xmltv_ns">5 . 1 .</episode-num>
+    <episode-num system="onscreen">Episode 2 season 6</episode-num>
+    <episode-num system="thetvdb.com">series/257494</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">5 . 1 .</episode-num></programme>
+  <programme start="20180825210000" stop="20180825220000" channel="natgeo.fi">
+    <title lang="fi">Upeat isot hait</title>
+    <sub-title lang="fi">Upeat isot hait</sub-title>
+    <desc lang="fi">Nopeatempoinen matka suurten haiden maailmaan. Mitä ne ovat? Miten ne selviävät? Miksi ne ovat täällä ja miten niistä tuli niin isoja?</desc>
+    <date>2018</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">. 0/1 .</episode-num>
+    <episode-num system="onscreen">Episode 1 of 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+    </video>
+  <episode-num system="xmltv_ns">. 0/1 .</episode-num></programme>
+  <programme start="20180825220000" stop="20180825230000" channel="natgeo.fi">
+    <title lang="fi">Meret ilman vettä</title>
+    <sub-title lang="fi">Villains of the Underworld</sub-title>
+    <desc lang="fi">We think we know Hitler's plans to dominate the world. But there's an untold story of how the Nazis waged a secret war across the world's oceans. Marine archaeologists and historians go in search of Hitler's secrets, hidden deep underwater. Scientific data combines with computer graphics to drain the oceans to investigate the lost wrecks of World War Two.</desc>
+    <date>2018</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">0 . 0 .</episode-num>
+    <episode-num system="onscreen">Episode 1 season 1</episode-num>
+    <episode-num system="thetvdb.com">series/348352</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 0 .</episode-num></programme>
+  <programme start="20180825230000" stop="20180826000000" channel="natgeo.fi">
+    <title lang="fi">Huumebisnes Oy</title>
+    <sub-title lang="fi">Hawaiian Ice</sub-title>
+    <desc lang="fi">Korkeat panokset Vegasissa. Joka vuosi 40 miljoonaa turistia saapuu Las Vegasiin pelaamaan uhkapelejä ja juhlimaan. Amerikan syntien kaupungissa on myös kysyntää huumeille. Dokumenttisarja, National Geographic Channel.</desc>
+    <credits>
+      <actor role="Herself">Christina Aguilera</actor>
+      <actor role="Himself">Blake Shelton</actor>
+      <actor role="Himself">Adam Levine</actor>
+      <actor role="Himself">Carson Daly</actor>
+      <actor role="Social Media Correspondent">Christina Milian</actor>
+      <actor role="Himself">CeeLo Green</actor>
+      <actor role="Himself">Javier Colon</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">2 . 2 .</episode-num>
+    <episode-num system="onscreen">Episode 3 season 3</episode-num>
+    <episode-num system="thetvdb.com">series/174501</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <star-rating>
+      <value>7.6 / 9</value>
+    </star-rating>
+  <episode-num system="xmltv_ns">2 . 2 .</episode-num></programme>
+  <programme start="20180826000000" stop="20180826003000" channel="natgeo.fi">
+    <title lang="fi">Junalla Kiinan halki</title>
+    <sub-title lang="fi">Jakso 1</sub-title>
+    <desc lang="fi">Yiwu- the world's largest small commodities market. In 2014, as part of China's Belt and Road Initiative, the city became home to a new freight train network to Europe. Today, it takes only 16 days to reach Madrid on the longest freight train route in the world as compared to over a year on the ancient silk road 2000 years ago. Historian Sam Willis teams up with journalist Li Qiuyuan to dig into Yiwu's trading past and explore how this modern-day rail link is changing how China trades with the west.</desc>
+    <date>2018</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">0 . 0/2 .</episode-num>
+    <episode-num system="onscreen">Episode 1 of 2 season 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 0/2 .</episode-num></programme>
+  <programme start="20180826003000" stop="20180826010000" channel="natgeo.fi">
+    <title lang="fi">Junalla Kiinan halki</title>
+    <sub-title lang="fi">Jakso 2</sub-title>
+    <desc lang="fi">2000 years ago, in the time of the ancient Silk Road, the journey between China, Central Asia and Europe often took an entire year. Today, goods can be transported overland in just 14 days thanks to the world's longest rail service, a 13,000 KM route that connects China and Europe. Now, with ancient connections being revived for the 21st century, historian Sam Willis and journalist Li Qiuyuan travel to Chengdu, to explore how a new era of trade is shaping the city.</desc>
+    <date>2018</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">0 . 1/2 .</episode-num>
+    <episode-num system="onscreen">Episode 2 of 2 season 1</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 1/2 .</episode-num></programme>
+  <programme start="20180826010000" stop="20180826015000" channel="natgeo.fi">
+    <title lang="fi">Meret ilman vettä</title>
+    <sub-title lang="fi">Villains of the Underworld</sub-title>
+    <desc lang="fi">We think we know Hitler's plans to dominate the world. But there's an untold story of how the Nazis waged a secret war across the world's oceans. Marine archaeologists and historians go in search of Hitler's secrets, hidden deep underwater. Scientific data combines with computer graphics to drain the oceans to investigate the lost wrecks of World War Two.</desc>
+    <date>2018</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    
+    <episode-num system="xmltv_ns">0 . 0 .</episode-num>
+    <episode-num system="onscreen">Episode 1 season 1</episode-num>
+    <episode-num system="thetvdb.com">series/348352</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 0 .</episode-num></programme>
+  <programme start="20180826015000" stop="20180826024000" channel="natgeo.fi">
+    <title lang="fi">Muinaiset salaiset kansiot</title>
+    <sub-title lang="fi">Muinaiset salaiset kansiot</sub-title>
+    <desc lang="fi">Mary Magdalene has long been known as a repentant sinner, a saint, and perhaps most importantly, the witness to the resurrection. But author Margaret Starbird believes that she was also Jesus' wife, mother of his child and victim of the biggest conspiracy in history. In this television exclusive she examines what some have claimed could be one of the earliest Christian artefacts ever discovered and untangles a riddle that she believes reveals the truth about this mysterious woman from the bible.</desc>
+    <date>2012</date>
+    <category lang="en">series</category>
+    <episode-num system="xmltv_ns">1 . 6/13 .</episode-num>
+    <episode-num system="onscreen">Episode 7 of 13 season 2</episode-num>
+    <video>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">1 . 6/13 .</episode-num></programme>
+  <programme start="20180826024000" stop="20180826033000" channel="natgeo.fi">
+    <title lang="fi">Inside: Kokaiinisodat</title>
+    <sub-title lang="fi">Airport Sting</sub-title>
+    <desc lang="fi">Lentokenttäkeikka. Huumepoliisitiimi valvoo Kolumbian El Doradon lentokentän terminaaleja ja etsii kokaiinin salakuljettajia. National Geographic Channel.</desc>
+    <date>2013</date>
+    <category lang="en">series</category>
+    <category lang="en">Documentary</category>
+    <category lang="en">Mini</category>
+    
+    <episode-num system="xmltv_ns">0 . 0 .</episode-num>
+    <episode-num system="onscreen">Episode 1 season 1</episode-num>
+    <episode-num system="thetvdb.com">series/269260</episode-num>
+    <video>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+  <episode-num system="xmltv_ns">0 . 0 .</episode-num></programme>
+</tv>

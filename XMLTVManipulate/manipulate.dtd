@@ -1,0 +1,19 @@
+<!DOCTYPE manipulate
+[
+<!ELEMENT manipulate (channel,programme,time_adjust)>
+
+<!-- Data for channel manimulation -->
+<!ELEMENT channel (old_id,new_id,new_name)>
+<!ELEMENT old_id (#PCDATA)>
+<!ELEMENT new_id (#PCDATA)>
+<!ELEMENT new_name (#PCDATA)>
+
+<!-- Data for programme manimulation -->
+<!ELEMENT programme (old_title,new_url,new_categories)>
+<!ELEMENT old_title (#PCDATA)>
+<!ELEMENT new_url (#PCDATA)>
+<!ELEMENT new_categories (#PCDATA)>
+
+<!-- Time adjust in minutes -->
+<!ELEMENT time_adjust (#PCDATA)>
+]> 
