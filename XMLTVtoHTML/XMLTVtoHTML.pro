@@ -57,6 +57,3 @@ SOURCES += \
     ../XMLTVGrid/gridp/programnames.cpp
 
 INCLUDEPATH += /usr/include/libxml2
-
-DISTFILES += \
-    README.md

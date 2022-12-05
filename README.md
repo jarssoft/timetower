@@ -4,7 +4,7 @@ Generates broadcast schedule tables from XMLTV and process XMLTV data.
 Command line application, programmed by C++.
 
 ## weektable (./XMLTVtoHTML)
-Generates broadcast schedule tables from XMLTV
+Generates visual broadcast schedule tables from XMLTV
 
 <pre>
 Usage: weektable [OPTION...] [tvxml-file1 tvxml-file2...]
@@ -21,7 +21,7 @@ Usage: weektable [OPTION...] [tvxml-file1 tvxml-file2...]
 </pre>
 
 ## manipuloi (./XMLTVManipulate)
-Process XMLTV data
+Process XMLTV data by adding information (links, categories, etc.), filtering and manipulating text and datetime-information.
 
 <pre>
 Usage: manipuloi [OPTION...] [tvxml-file manipulate-file...]
@@ -38,10 +38,14 @@ Usage: manipuloi [OPTION...] [tvxml-file manipulate-file...]
 </pre>
 
 ## yhdista (./XMLTVYhdista)
-Join XMLTV-files.
+Joins XMLTV-files from various source. Converts duplicate programmes to composed one. Reads filelist from stdin.
 
-## Exaples
+## Examples
+Joins all XMLTV-files in directory.
+
+<pre>
 find -name ".xml" -type f | yhdista > joined.xml
+</pre>
 
 Showcase:
 http://www.ohjelmakartta.fi/
